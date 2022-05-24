@@ -123,7 +123,7 @@ interface IERC721 is IERC165 {
      *
      * Emits an {ApprovalForAll} event.
      */
-    function setApprovalForAll(address operator, bool _approved) external;
+    // function setApprovalForAll(address operator, bool _approved) external;
 
     /**
      * @dev Returns the account approved for `tokenId` token.
@@ -139,5 +139,5 @@ interface IERC721 is IERC165 {
      *
      * See {setApprovalForAll}
      */
-    function isApprovedForAll(address owner, address operator) external view returns (bool);
+    // function isApprovedForAll(address owner, address operator) external view returns (bool);
 }
